@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/012/004/436/original/organic-shapes-art-backgrounds-on-pastel-color-trendy-modern-organic-shapes-with-copy-space-text-suitable-for-banner-poster-promotion-advertisement-flyer-or-template-free-vector.jpg");
+}
+.form {
+    margin: 10% 40%;
+    border: 2px solid #FEB6B9;
+    width: 400px;
+    height: 600px;
+    background-color: #679A9B;
+    border-radius: 10px;
+}
+.form p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+    background-color: #FEB6B9;
+    margin-bottom: 100px;
+}
+#inputNumber {
+    width: 350px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 20px 50px 20px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.button {
+    width: 350px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 0 20px 50px 20px;
+    font-weight: 700;
+    background-color: #A8D1CD;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #679A9B;
+}
+.display {
+    text-align: center;
+    background-color: rgb(89, 135, 176);
+    width: 350px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 20px 50px 20px;
+}
